@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/david/Coding/TheftDetection/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/david/Coding/TheftDetection/app/build/intermediates/pre-dexed/debug/classes-113e7495d7fa78009ee2e3cec13fcf86c0096ec4.jar" />
+    </item>
+    <item
+        jar="/Users/david/Coding/TheftDetection/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/david/Coding/TheftDetection/app/build/intermediates/pre-dexed/debug/classes-8919185f2fb6d71183da70c90020f69c876d5020.jar" />
+    </item>
+    <item
+        jar="/Users/david/Coding/TheftDetection/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/david/Coding/TheftDetection/app/build/intermediates/pre-dexed/debug/classes-665930a829426e0e577cb986807ec98f21d1f00a.jar" />
+    </item>
+
+</items>

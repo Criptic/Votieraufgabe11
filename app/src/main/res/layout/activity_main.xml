@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <NumberPicker
+        android:layout_marginTop="16dp"
+        android:id="@+id/distance_from_home"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Alarm ab in Metern"/>
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="saveDistance"
+        android:layout_toRightOf="@id/distance_from_home"/>
+
+    <Button
+        android:id="@+id/save_it"
+        android:onClick="saveGeoLoc"
+        android:layout_marginTop="72dp"
+        android:layout_below="@id/distance_from_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Home Location"/>
+
+    <Button
+        android:id="@+id/calculate_it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save_it"
+        android:onClick="calcutedDistance"
+        android:text="Calculate Difference"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculate_it"
+        android:text="Clear the Stored Values"
+        android:onClick="clearStoredValues"/>
+
+</RelativeLayout>
